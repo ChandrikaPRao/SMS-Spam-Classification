@@ -177,7 +177,7 @@ def data_prep():
     """
     global data, train, test, train_data, train_labels,test_data, test_labels
     
-    data = pd.read_csv("Dataset/spam.csv", encoding='latin-1', na_filter=False)
+    data = pd.read_csv("spam.csv", encoding='latin-1', na_filter=False)
     print("data.describe() :","\n" ,data.describe(),"\n")
     print("data.info() :","\n" ,data.info(),"\n")
     print("data.head(5) :","\n" ,data.head(5),"\n")
